@@ -1,0 +1,43 @@
+$primary-color: #000000;
+$secondary-color: #f2F2F2;
+$tirtiary-color: #303030;
+$main-color : #A1A8A1;
+$basic-color: #454545;
+$text-color: #E0E0E0;
+
+.tableStyle {
+    width: 100%;
+    border-spacing: 0px;
+.hederStyling {
+    padding: 1rem;
+    color: $text-color;
+    border-bottom: 1px solid $primary-color;
+    background-color: $basic-color;
+}
+
+.bodyStyling {
+    color: $text-color;
+    background-color: $tirtiary-color;
+    border-bottom: 1px solid $main-color;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+}
+ 
+.pagination {
+    margin: 2rem;
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+  }
+
+  .pagination li a {
+      border: 2px solid $main-color;
+      margin: 2px;
+      padding: 8px 16px;
+      cursor: progress;
+      background-color: $secondary-color;
+      box-shadow: 2px 2px 4px 4px $secondary-color;
+  }
+  .main-image{
+    height: 50px;
+  }
